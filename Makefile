@@ -41,8 +41,8 @@ pdf:
 	-V documentclass:report \
 	-N \
 	--pdf-engine=xelatex \
-	--filter pandoc-crossref
-	# --verbose 
+	--filter pandoc-crossref \
+	--verbose
 
 tex:
 	pandoc "$(INPUTDIR)"/*.md \
