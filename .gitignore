@@ -58,3 +58,10 @@ target/
 
 # Node modules
 node_modules/
+
+# IDE
+.idea/*
+.tags
+.vscode
+.history
+.pydocstyle
