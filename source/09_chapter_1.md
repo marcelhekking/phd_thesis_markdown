@@ -4,7 +4,7 @@
 
 This is the introduction. To include a citation to the text, just add the citation key shown in the references.bib file. The style of the citation is determined by the ref_format.csl file. For example, cite like this [@Cousteau1963].
 
-<!-- 
+<!--
 To include a reference, add the citation key shown in the references.bib file.
 -->
 
@@ -14,12 +14,18 @@ Numbered equations are assisted by installing [pandoc-crossref](https://github.c
 
 $$ \rho c \frac{\partial T}{\partial t} =  \frac{\partial q} {\partial x} $$ {#eq:yourlabel}
 
-Now you can reference your equations (@eq:yourlabel) inline. If using pandoc-crossref, add the following to each relevant section of the makefile. 
+Now you can reference your equations (@eq:yourlabel) inline. If using pandoc-crossref, add the following to each relevant section of the makefile.
 
-```--filter pandoc-crossref``` 
+```--filter pandoc-crossref```
 
 Non numbered equations:
 $$ \rho c \frac{\partial T}{\partial t} =  \frac{\partial q} {\partial x} $$
+
+## Chemical notation
+
+### hghgd  dissociates in water as follows:
+
+$$\ce{H2O + HCl <=> H3O+ + Cl-}$$
 
 ## The middle bit
 
@@ -33,7 +39,7 @@ This is a subsection of the middle bit. Quisque sit amet tempus arcu, ac suscipi
 
 ## Summary of chapters
 
-<!-- 
+<!--
 For italic, add one * on either side of the text
 For bold, add two * on either side of the text
 For bold and italic, add _** on either side of the text

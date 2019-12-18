@@ -1,0 +1,5 @@
+---
+numbersections: true
+header-includes: |
+            \usepackage{mhchem}
+---

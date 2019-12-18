@@ -1,0 +1,14 @@
+# Fdb version 3
+["pdflatex"] 1576676136 "/home/marcel/code/phd_thesis_markdown/style/template.tex" "/home/marcel/code/phd_thesis_markdown/style/template.pdf" "template" 1576676136
+  "$documentclass$.cls" 0 -1 0 ""
+  "/etc/texmf/web2c/texmf.cnf" 1576248021 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/home/marcel/code/phd_thesis_markdown/style/template.aux" 1576676136 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/home/marcel/code/phd_thesis_markdown/style/template.tex" 1576676136 5253 695bd156008a8450695f4fe1786a0fcf ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1576654146 4127156 11aed80267e3c582fdb5916b60fc0b8f ""
+  "template.tex" 1576676136 5253 695bd156008a8450695f4fe1786a0fcf ""
+  (generated)
+  "/home/marcel/code/phd_thesis_markdown/style/template.log"
+  "/home/marcel/code/phd_thesis_markdown/style/template.pdf"
+  "template.log"
