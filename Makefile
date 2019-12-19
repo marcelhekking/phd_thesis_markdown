@@ -41,7 +41,7 @@ pdf:
 	-N \
 	--pdf-engine=xelatex \
 	--filter pandoc-crossref \
-	--verbose
+	# --verbose
 
 tex:
 	pandoc "$(INPUTDIR)"/*.md \
@@ -61,7 +61,6 @@ docx:
 	-o "$(OUTPUTDIR)/thesis.docx" \
 	--bibliography="$(BIBFILE)" \
 	--mathjax \
-	--metadata-file=mhchem.yml \
 	--csl="$(STYLEDIR)/ref_format.csl" \
 	--toc \
 	--filter pandoc-crossref
