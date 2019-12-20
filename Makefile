@@ -70,7 +70,6 @@ html:
 	-o "$(OUTPUTDIR)/thesis.html" \
 	--standalone \
 	--template="$(STYLEDIR)/template.html" \
-	--bibliography="$(BIBFILE)" \
 	--csl="$(STYLEDIR)/ref_format.csl" \
 	--include-in-header="$(STYLEDIR)/style.css" \
 	--toc \
