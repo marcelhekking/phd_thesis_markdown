@@ -29,7 +29,7 @@ help:
 	@echo 'or generic ones from: https://github.com/jgm/pandoc-templates		  '
 
 pdf:
-	pandoc *.md \
+	pandoc "$(INPUTDIR)"/*.md \
 	-o "$(OUTPUTDIR)/$(STDNO)-$(LAST)-$(FIRST)-Thesis.pdf" \
 	-H "$(STYLEDIR)/preamble.tex" \
 	--template="$(STYLEDIR)/template.tex" \
@@ -74,8 +74,6 @@ html:
 	--number-sections \
 	--mathjax \
 	--filter pandoc-crossref
-	rm -rf "$(OUTPUTDIR)/source"
-	mkdir "$(OUTPUTDIR)/source"
 	cp -r "$(INPUTDIR)/figures" "$(OUTPUTDIR)/figures"
 
 .PHONY: help pdf docx html tex
