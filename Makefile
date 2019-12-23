@@ -78,6 +78,6 @@ html:
 	--filter pandoc-crossref
 	rm -rf "$(OUTPUTDIR)/source"
 	mkdir "$(OUTPUTDIR)/source"
-	cp -r "$(INPUTDIR)/source/figures" "$(OUTPUTDIR)/source/figures"
+	cp -r "$(INPUTDIR)/figures" "$(OUTPUTDIR)/figures"
 
 .PHONY: help pdf docx html tex
