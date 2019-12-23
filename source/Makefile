@@ -6,10 +6,10 @@ PY=python
 PANDOC=pandoc
 
 BASEDIR=$(CURDIR)
-INPUTDIR=$(BASEDIR)/source
-OUTPUTDIR=$(BASEDIR)/output
+INPUTDIR=../source
+OUTPUTDIR=../output
 TEMPLATEDIR=$(INPUTDIR)/templates
-STYLEDIR=$(BASEDIR)/style
+STYLEDIR=../style
 
 BIBFILE=$(INPUTDIR)/references.bib
 
@@ -29,7 +29,7 @@ help:
 	@echo 'or generic ones from: https://github.com/jgm/pandoc-templates		  '
 
 pdf:
-	pandoc "$(INPUTDIR)"/*.md \
+	pandoc *.md \
 	-o "$(OUTPUTDIR)/$(STDNO)-$(LAST)-$(FIRST)-Thesis.pdf" \
 	-H "$(STYLEDIR)/preamble.tex" \
 	--template="$(STYLEDIR)/template.tex" \
@@ -47,7 +47,6 @@ tex:
 	pandoc "$(INPUTDIR)"/*.md \
 	-o "$(OUTPUTDIR)/thesis.tex" \
 	-H "$(STYLEDIR)/preamble.tex" \
-	--bibliography="$(BIBFILE)" \
 	-V fontsize=12pt \
 	-V papersize=a4paper \
 	-V documentclass:report \
@@ -59,7 +58,6 @@ tex:
 docx:
 	pandoc "$(INPUTDIR)"/*.md \
 	-o "$(OUTPUTDIR)/thesis.docx" \
-	--bibliography="$(BIBFILE)" \
 	--mathjax \
 	--csl="$(STYLEDIR)/ref_format.csl" \
 	--toc \
