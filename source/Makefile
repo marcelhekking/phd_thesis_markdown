@@ -74,6 +74,7 @@ html:
 	--number-sections \
 	--mathjax \
 	--filter pandoc-crossref
+	rm -rf "$(OUTPUTDIR)/figures"
 	cp -r "$(INPUTDIR)/figures" "$(OUTPUTDIR)/figures"
 
 .PHONY: help pdf docx html tex
