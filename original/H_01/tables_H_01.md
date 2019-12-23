@@ -3,14 +3,14 @@ American view \[13\].
 
   ----------------------- ----------------------------- -------------------------------------------------------------------------------------
   disorder                primary change                compensatory response
-  metabolic acidosis      ↓ a\[$\text{HCO}_{3}^{-}$\]   1.2 mmHg decrease in PaCO~2~ for every 1 mmol/l fall in a\[$\text{HCO}_{3}^{-}$\]
-  metabolic alkalosis     ↑ a\[$\text{HCO}_{3}^{-}$\]   0.7 mmHg elevation in PaCO~2~ for every 1 mmol/l rise in a\[$\text{HCO}_{3}^{-}$\]
-  respiratory acidosis    ↑ PaCO~2~                     
-  acute                                                 1 mmol/l elevation in a\[$\text{HCO}_{3}^{-}$\] for every 10 mmHg rise in PaCO~2~
-  chronic                                               3.5 mmol/l elevation in a\[$\text{HCO}_{3}^{-}$\] for every 10 mmHg rise in PaCO~2~
-  respiratory alkalosis   ↓ PaCO~2~                     
-  acute                                                 2 mmol/l decrease in a\[$\text{HCO}_{3}^{-}$\] for every 10 mmHg fall in PaCO~2~
-  chronic                                               5 mmol/l decrease in a\[$\text{HCO}_{3}^{-}$\] for every 10 mmHg fall in PaCO~2~
+  metabolic acidosis      ↓ a\[$\ce{HCO3-}$\]   1.2 mmHg decrease in PaCO~2~ for every 1 mmol/l fall in a\[$\ce{HCO3-}$\]
+  metabolic alkalosis     ↑ a\[$\ce{HCO3-}$\]   0.7 mmHg elevation in PaCO~2~ for every 1 mmol/l rise in a\[$\ce{HCO3-}$\]
+  respiratory acidosis    ↑ PaCO~2~
+  acute                                                 1 mmol/l elevation in a\[$\ce{HCO3-}$\] for every 10 mmHg rise in PaCO~2~
+  chronic                                               3.5 mmol/l elevation in a\[$\ce{HCO3-}$\] for every 10 mmHg rise in PaCO~2~
+  respiratory alkalosis   ↓ PaCO~2~
+  acute                                                 2 mmol/l decrease in a\[$\ce{HCO3-}$\] for every 10 mmHg fall in PaCO~2~
+  chronic                                               5 mmol/l decrease in a\[$\ce{HCO3-}$\] for every 10 mmHg fall in PaCO~2~
   ----------------------- ----------------------------- -------------------------------------------------------------------------------------
 
 able 1--2. Upper and lower limits of the standard 95% normal reference
@@ -21,7 +21,7 @@ intervals for the acid-base variables in arterial blood.
   pH                          7.35          7.45
   PaCO~2~                     35 mmHg       45 mmHg
   BE                          -3 mmol/l     3 mmol/l
-  a\[$\text{HCO}_{3}^{-}$\]   21 mmol/l     27 mmol/l
+  a\[$\ce{HCO3-}$\]   21 mmol/l     27 mmol/l
   --------------------------- ------------- -------------
 
 able 1--3. Classification of acid-base disorders in the Scandinavian

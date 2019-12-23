@@ -9,10 +9,10 @@ intervals to be 4 standard deviations wide.
   PaCO~2~ (mmHg)                       35 -- 45                  40         2.5
   PaCO~2~ (kPa)                        4.7 -- 6.0                5.33       0.325
   BE (mmol/l)                          -3 -- 3                   0          1.5
-  a\[$\text{HCO}_{3}^{-}$\] (mmol/l)   21 -- 27                  24         1.5
+  a\[$\ce{HCO3-}$\] (mmol/l)   21 -- 27                  24         1.5
   log PaCO~2~ (mmHg)                   log 35 -- log 40          log 40     (log 35 -- log 40) / 4
   log PaCO~2~ (kPa)                    log 4.7 -- log 6.0        log 5.33   (log 4.7 -- log 6.0) / 4
-  log a\[$\text{HCO}_{3}^{-}$\]        log 21 -- log 27          log 24     (log 21 -- log 27) / 4
+  log a\[$\ce{HCO3-}$\]        log 21 -- log 27          log 24     (log 21 -- log 27) / 4
   ------------------------------------ ------------------------- ---------- --------------------------
 
 able 2--2. Normalised eigenvectors ε of each principal component as
