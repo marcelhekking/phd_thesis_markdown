@@ -72,7 +72,7 @@ n
 S
 n
 32 0 0 58 58 0 0 0 53 /Helvetica /font12 ANSIFont font
-3359 1803 74 (pH) 74 SB
+3359 1803 74 ($\ce{pH}$) 74 SB
 2825 2771 M -928 -1936 1 PP
 S
 n

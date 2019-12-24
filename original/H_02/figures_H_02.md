@@ -1,8 +1,8 @@
 ![](media/image1.png){width="3.376388888888889in"
 height="3.8361111111111112in"}
 
-Figure 2--1. Three-dimensional view of a rotated pH, PaCO~2~ and base
-excess (BE) data set. The cube represents the 95% reference volume as
+Figure 2--1. Three-dimensional view of a rotated $\ce{pH}$, PaCO~2~ and base
+excess ($\ce{BE}$) data set. The cube represents the 95% reference volume as
 defined by the 95% univariate reference intervals of Error: Reference
 source not found.
 
