@@ -531,6 +531,67 @@
                                 <p><img src="figures/H_02_image1.gif" style="width:80.0%" /></p>
                                 <p><em>Figure 2–1. Three-dimensional view of a rotated <span class="math inline">\(\mathit{pH}\)</span>, <span class="math inline">\(\mathit{PaCO_2}\)</span> and base excess (<span class="math inline">\(\mathit{BE}\)</span>) data set. The cube represents the 95% reference volume as defined by the 95% univariate reference intervals of Error: Reference source not found.</em></p>
                                 <p>Figure 2 –1 displays such a <span class="math inline">\(\ce{pH}\)</span>, <span class="math inline">\(\ce{PaCO2}\)</span> and <span class="math inline">\(\ce{BE}\)</span> distribution in three dimensions. The distribution is rotated in such a way that the curved plane of measurements can be easily viewed. The cube in the middle is the volume in three dimensions that represents the standard reference volume, as built from the three standard univariate 95% reference intervals for <span class="math inline">\(\ce{pH}\)</span>, <span class="math inline">\(\ce{PaCO2}\)</span> and <span class="math inline">\(\ce{BE}\)</span> of Table 2–1.</p>
+                                <p><em>Table 2–1. Means (m) and standard deviations (s) as derived from the standard 95% reference intervals for the arterial acid-base variables. The standard deviations are calculated by assuming the 95% reference intervals to be 4 standard deviations wide.</em></p>
+                                <table>
+                                <thead>
+                                <tr class="header">
+                                <th></th>
+                                <th>95 % reference interval</th>
+                                <th><em>m</em></th>
+                                <th><em>s</em></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr class="odd">
+                                <td><span class="math inline">\(\ce{pH}\)</span></td>
+                                <td>7.35 – 7.45</td>
+                                <td>7.40</td>
+                                <td>0.025</td>
+                                </tr>
+                                <tr class="even">
+                                <td><span class="math inline">\(\ce{PaCO2}\)</span> (mmHg)</td>
+                                <td>35 – 45</td>
+                                <td>40</td>
+                                <td>2.5</td>
+                                </tr>
+                                <tr class="odd">
+                                <td><span class="math inline">\(\ce{PaCO2}\)</span> (kPa)</td>
+                                <td>4.7 – 6.0</td>
+                                <td>5.33</td>
+                                <td>0.325</td>
+                                </tr>
+                                <tr class="even">
+                                <td><span class="math inline">\(\ce{BE}\)</span> (mmol/l)</td>
+                                <td>-3 – 3</td>
+                                <td>0</td>
+                                <td>1.5</td>
+                                </tr>
+                                <tr class="odd">
+                                <td><span class="math inline">\([\ce{HCO3-}]\)</span> (mmol/l)</td>
+                                <td>21 – 27</td>
+                                <td>24</td>
+                                <td>1.5</td>
+                                </tr>
+                                <tr class="even">
+                                <td>log <span class="math inline">\(\ce{PaCO2}\)</span> (mmHg)</td>
+                                <td>log 35 – log 40</td>
+                                <td>log 40</td>
+                                <td>(log 35 – log 40) / 4</td>
+                                </tr>
+                                <tr class="odd">
+                                <td>log <span class="math inline">\(\ce{PaCO2}\)</span> (kPa)</td>
+                                <td>log 4.7 – log 6.0</td>
+                                <td>log 5.33</td>
+                                <td>(log 4.7 – log 6.0) / 4</td>
+                                </tr>
+                                <tr class="even">
+                                <td>log <span class="math inline">\([\ce{HCO3-}]\)</span></td>
+                                <td>log 21 – log 27</td>
+                                <td>log 24</td>
+                                <td>(log 21 – log 27) / 4</td>
+                                </tr>
+                                </tbody>
+                                </table>
                                 <p>Having observed that the relationship between the arterial acid-base variables (both for combinations of <span class="math inline">\(\ce{pH}\)</span>, <span class="math inline">\(\ce{PaCO2}\)</span> and <span class="math inline">\(\ce{BE}\)</span> and <span class="math inline">\(\ce{pH}\)</span>, log <span class="math inline">\(\ce{PaCO2}\)</span> and log a<span class="math inline">\([\ce{HCO3-}]\)</span>) is an almost linear one, the goal is to arrive at a mathematical description of this relationship and to investigate its departure from linearity. The mathematical technique to be used for such an investigation is a principal component analysis (PCA). PCA is a multivariate statistical technique for the compression of large data matrices [4, 5]. In this chapter, the results of a PCA of several distributions of acid-base data, coming from various ICUs, are described.</p>
                                 </section>
                                 <section id="materials-and-methods" data-number="2.2">
@@ -562,7 +623,111 @@
                                 <section id="results" data-number="2.3">
                                 <h2 data-number="2.3"><span class="header-section-number">2.3</span> Results</h2>
                                 <p>Table 2 –2 presents the results of the principal component analysis of each data set. The eigenvalues <span class="math inline">\(\lambda\)</span> are shown for each of the three principal components (hereafter referred to as PC1, PC2 and PC3). The eigenvalues <span class="math inline">\(\lambda\)</span> explain the contribution of each of the principal component to the total variance in the data set prior to PCA. For instance, in the <em>AZRbe</em> data set, PC1, PC2 and PC3 explain 62.37%, 36.91% and 0.71% of the total variance in the initial data set, respectively. From Table 2 –2 it can be concluded that for each data set, the percentage of variance explained by the third principal component (PC3) is only small compared to the variance explained by the first two principal components (PC1 and PC2) together. The explained variance by PC1 and PC2 for each data set is more than 99%. The data sets <em>OLVGab</em> and <em>ELIab</em> show the smallest explained variance by PC3; 0.03% and 0.09%, respectively. This is not surprising since these data sets consist of <span class="math inline">\(\ce{pH}\)</span>, log <span class="math inline">\(\ce{PaCO2}\)</span> and log a<span class="math inline">\([\ce{HCO3-}]\)</span> values and these variables are linearly related according to the Henderson-Hasselbalch equation (see Chapter Error: Reference source not found) [1].</p>
+                                <p><em>Table 2–2. Eigenvalues <span class="math inline">\(\lambda\)</span> and contributions to the total variance in the initial data set (in brackets) for each principal component.</em></p>
+                                <table>
+                                <thead>
+                                <tr class="header">
+                                <th></th>
+                                <th>PC1</th>
+                                <th>PC2</th>
+                                <th>PC3</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr class="odd">
+                                <td>AZRbe</td>
+                                <td>20.54 (62.37%)</td>
+                                <td>12.16 (36.91%)</td>
+                                <td>0.235 (0.71%)</td>
+                                </tr>
+                                <tr class="even">
+                                <td>OLVGbe</td>
+                                <td>26.04 (69.70%)</td>
+                                <td>11.22 (30.03%)</td>
+                                <td>0.101 (0.27%)</td>
+                                </tr>
+                                <tr class="odd">
+                                <td>OLVGab</td>
+                                <td>25.52 (74.30%)</td>
+                                <td>8.82 (25.67%)</td>
+                                <td>0.009 (0.03%)</td>
+                                </tr>
+                                <tr class="even">
+                                <td>SKZbe</td>
+                                <td>21.09 (78.01%)</td>
+                                <td>5.87 (21.72%)</td>
+                                <td>0.072 (0.27%)</td>
+                                </tr>
+                                <tr class="odd">
+                                <td>ELIbe</td>
+                                <td>23.62 (64.55%)</td>
+                                <td>12.83 (35.07%)</td>
+                                <td>0.137 (0.37%)</td>
+                                </tr>
+                                <tr class="even">
+                                <td>ELIab</td>
+                                <td>20.36 (58.91%)</td>
+                                <td>14.17 (41.00%)</td>
+                                <td>0.032 (0.09%)</td>
+                                </tr>
+                                </tbody>
+                                </table>
                                 <p>For each data set, a matrix <span class="math inline">\(U\)</span> can be built from the three separate normalised eigenvectors <span class="math inline">\(\varepsilon\)</span>, which are used to calculate the associated principal component values from a combination of standardised original acid-base values. Table 2 –3 shows the normalised eigenvectors <span class="math inline">\(\varepsilon\)</span> of each principal component for all data sets. With the matrices U, new trivariate distributions of principal component values were calculated from the original standardised acid-base data sets.</p>
+                                <p><em>Table 2–3. Normalised eigenvectors <span class="math inline">\(\varepsilon\)</span> of each principal component as obtained after PCA. The eigenvectors for PC1, PC2 and PC3 are columns 1, 2 and 3, respectively of the eigenmatrix matrix <span class="math inline">\(U\)</span>. The eigenmatrix <span class="math inline">\(U\)</span> will be the input of calculations to be presented in the next chapters.</em></p>
+                                <table>
+                                <colgroup>
+                                <col style="width: 6%" />
+                                <col style="width: 33%" />
+                                <col style="width: 33%" />
+                                <col style="width: 26%" />
+                                </colgroup>
+                                <thead>
+                                <tr class="header">
+                                <th></th>
+                                <th>PC1</th>
+                                <th>PC2</th>
+                                <th>PC3</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr class="odd">
+                                <td>AZRbe</td>
+                                <td>(0.297, -0.885, -0.358)</td>
+                                <td>(0.709, -0.046, 0.703)</td>
+                                <td>(0.639, 0.463, -0.614)</td>
+                                </tr>
+                                <tr class="even">
+                                <td>OLVGbe</td>
+                                <td>(-0.039, -0.777, -0.628)</td>
+                                <td>(0.742, -0.444, 0.503)</td>
+                                <td>(0.669, 0.446, -0.594)</td>
+                                </tr>
+                                <tr class="odd">
+                                <td>OLVGab</td>
+                                <td>(0.044, 0.686, 0.727)</td>
+                                <td>(-0.839, 0.420, -0.346)</td>
+                                <td>(0.542, 0.594, -0.594)</td>
+                                </tr>
+                                <tr class="even">
+                                <td>SKZbe</td>
+                                <td>(0.635, -0.757, 0.153)</td>
+                                <td>(0.425, 0.508, 0.749)</td>
+                                <td>(0.645, 0.411, -0.649)</td>
+                                </tr>
+                                <tr class="odd">
+                                <td>ELIbe</td>
+                                <td>(0.732, -0.184, 0.656)</td>
+                                <td>(-0.184, 0.874, 0.450)</td>
+                                <td>(0.656, 0.450, -0.605)</td>
+                                </tr>
+                                <tr class="even">
+                                <td>ELIab</td>
+                                <td>(0.734, -0.012, 0.679)</td>
+                                <td>(-0.391, 0.811, 0.436)</td>
+                                <td>(0.556, 0.585, -0.590)</td>
+                                </tr>
+                                </tbody>
+                                </table>
                                 <p>Table 2 –4 presents the characteristics of the resulting principal component value distributions. For each data set, the standard deviation of the PC3 distribution is small compared to the standard deviations of the PC1 and PC2 distributions. Data set <em>OLVGab</em> and <em>ELIab</em> have the smallest standard deviations for the third principal component value distribution: 0.097 and 0.178, respectively. This is in accordance with the results presented in Table 2 –2.</p>
                                 <p>Since for each data set the amount of explained variance is more than 99% when only PC1 and PC2 are considered, there is no significant loss of information when the acid-base values are projected onto the plane spanned by PC1 and PC2. Hence, any quantitative analysis based on PC1 and PC2 addresses the complete acid-base status. In Figure 2 –2, scatterplots of PC2 versus PC1 are shown for all data sets.</p>
                                 <p>Since the plane of measurements in case of a <span class="math inline">\(\ce{pH}\)</span>, <span class="math inline">\(\ce{PaCO2}\)</span> and <span class="math inline">\(\ce{BE}\)</span> data set is slightly curved (see Figure 2 –1), it is interesting to investigate the effect of the curvature on the distribution of PC3 values. Therefore, the PC3 distribution characteristics of two data sets were investigated. This was done by constructing box-whisker plots of groups of PC3 values that are increasingly further away from the bivariate PC1-PC2 mean. As a cut-off point, a distance of 1 standard deviation score was chosen with a maximum of 10, yielding 11 groups of data. A box-whisker plot provides a graphical representation of the distribution of values in a given data set. The outer top and bottom horizontal lines of the box-whisker plots indicate the <span class="math inline">\(95^{th}\)</span> and <span class="math inline">\(5^{th}\)</span> percentiles of a distribution, respectively. The top and bottom horizontal lines enclosing the box denote the <span class="math inline">\(75^{th}\)</span> and the <span class="math inline">\(25^{th}\)</span> percentile, respectively. The horizontal line inside the box denotes the median.</p>
