@@ -5,14 +5,14 @@ intervals to be 4 standard deviations wide.
 
   ------------------------------------ ------------------------- ---------- --------------------------
                                        95 % reference interval   *m*        *s*
-  $\ce{pH}$                                   7.35 -- 7.45              7.40       0.025
+  pH                                   7.35 -- 7.45              7.40       0.025
   PaCO~2~ (mmHg)                       35 -- 45                  40         2.5
   PaCO~2~ (kPa)                        4.7 -- 6.0                5.33       0.325
-  $\ce{BE}$ (mmol/l)                          -3 -- 3                   0          1.5
-  $[\ce{HCO3-}]$ (mmol/l)   21 -- 27                  24         1.5
+  BE (mmol/l)                          -3 -- 3                   0          1.5
+  a\[$\text{HCO}_{3}^{-}$\] (mmol/l)   21 -- 27                  24         1.5
   log PaCO~2~ (mmHg)                   log 35 -- log 40          log 40     (log 35 -- log 40) / 4
   log PaCO~2~ (kPa)                    log 4.7 -- log 6.0        log 5.33   (log 4.7 -- log 6.0) / 4
-  log $[\ce{HCO3-}]$        log 21 -- log 27          log 24     (log 21 -- log 27) / 4
+  log a\[$\text{HCO}_{3}^{-}$\]        log 21 -- log 27          log 24     (log 21 -- log 27) / 4
   ------------------------------------ ------------------------- ---------- --------------------------
 
 able 2--2. Normalised eigenvectors ε of each principal component as
@@ -42,3 +42,17 @@ initial data set (in brackets) for each principal component.
   ELIbe    23.62 (64.55%)   12.83 (35.07%)   0.137 (0.37%)
   ELIab    20.36 (58.91%)   14.17 (41.00%)   0.032 (0.09%)
   -------- ---------------- ---------------- ---------------
+
+able 2--4. Characteristics (m is mean and s is the standard deviation)
+of the principal component value distributions.
+
+  -------- -------- ------- -------- ------- -------- -------
+           PC1      PC2     PC3                       
+           *m*      *s*     *m*      *s*     *m*      *s*
+  AZRbe    1.282    4.532   0.695    3.487   0.177    0.485
+  OLVGbe   -0.773   5.103   -0.315   3.349   -0.215   0.317
+  OLVGab   0.357    5.052   0.250    2.969   -0.282   0.097
+  SKZbe    -3.358   4.593   -2.676   2.423   -0.109   0.268
+  ELIbe    -1.025   4.860   0.062    3.582   -0.005   0.370
+  ELIab    -1.008   4.513   -0.038   3.765   -0.071   0.178
+  -------- -------- ------- -------- ------- -------- -------
