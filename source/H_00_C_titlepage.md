@@ -49,32 +49,4 @@
         \vspace{1.0cm}
 
     \end{center}
-
-    \pagenumbering{roman}
-    \setcounter{page}{1}
 \end{titlepage}
-
-\newpage
-
-\setcounter{page}{2}
-
-\normalsize
-Promotiecommissie
-
-\begin{tabbing}
-\text{Promotor}~~~~~~~~~~~~ \= \text{Prof.dr. E.S. Gelsema}\\
-\text{Overige leden:} \> \text{Prof.dr. H.A. Bruining, Prof.dr.ir. H.L. Vader en} \\
-\text{} \> \text{Prof.dr.ir. A. Hasman} \\
-\text{Co-promotor}~~~~~~~~ \= \text{Dr. J. Lindemans}\\
-\end{tabbing}
-
-\newpage
-
-THE FAR SIDE by Gary Larson
-
-THE FAR SIDE © FARWORKS, INC. Used by permission of
-UNIVERSAL PRESS SYNDICATE. All rights reserved
-
-\newpage
-\setcounter{page}{4}
-\renewcommand{\thepage}{\arabic{page}}
