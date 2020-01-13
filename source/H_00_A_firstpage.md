@@ -1,6 +1,5 @@
-\pagenumbering{roman}
 \setcounter{page}{1}
-
+\pagenumbering{roman}
 \begin{titlepage}
     \begin{center}
 

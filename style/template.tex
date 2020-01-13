@@ -168,6 +168,11 @@ $endfor$
 $if(title)$
 \maketitle
 $endif$
+\patchcmd{\titlepage}
+  {\thispagestyle{empty}}
+  {\thispagestyle{plain}}
+  {}
+  {}
 $if(abstract)$
 \begin{abstract}
 $abstract$

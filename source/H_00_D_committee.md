@@ -1,5 +1,4 @@
-\setcounter{page}{2}
-
+\setcounter{page}{4}
 \normalsize
 \text{Promotiecommissie}
 \begin{tabbing}

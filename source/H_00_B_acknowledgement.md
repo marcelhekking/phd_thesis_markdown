@@ -1,3 +1,5 @@
+\setcounter{page}{2}
+
 # Acknowledgement {.unnumbered}
 
 The work presented in this thesis was partly supported by a grant for
