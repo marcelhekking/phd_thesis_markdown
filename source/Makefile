@@ -29,7 +29,7 @@ help:
 	@echo 'or generic ones from: https://github.com/jgm/pandoc-templates		  '
 
 pdf:
-	pandoc "$(INPUTDIR)"/*.md \
+	pandoc "$(INPUTDIR)"/H_00*.md \
 	-o "$(OUTPUTDIR)/$(STDNO)-$(LAST)-$(FIRST)-Thesis.pdf" \
 	-H "$(STYLEDIR)/preamble.tex" \
 	--template="$(STYLEDIR)/template.tex" \

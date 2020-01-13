@@ -2,11 +2,11 @@
     \begin{center}
     \setcounter{page}{5}
 
-        \vspace*{1.0cm}
-
+        \vspace*{4.0cm}
+        \footnotesize
         THE FAR SIDE by Gary Larson
 
-        \includegraphics[width=0.4\textwidth]{figures/H_01_image1.png}
+        \includegraphics[width=0.6\textwidth]{figures/H_00_image.png}
 
         \vspace*{1.0cm}
 
