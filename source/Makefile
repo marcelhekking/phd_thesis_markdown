@@ -29,7 +29,7 @@ help:
 	@echo 'or generic ones from: https://github.com/jgm/pandoc-templates		  '
 
 pdf:
-	pandoc "$(INPUTDIR)"/*.md \
+	pandoc "$(INPUTDIR)"/H_03.md \
 	-o "$(OUTPUTDIR)/$(STDNO)-$(LAST)-$(FIRST)-Thesis.pdf" \
 	-H "$(STYLEDIR)/preamble.tex" \
 	--template="$(STYLEDIR)/template.tex" \
@@ -44,7 +44,7 @@ pdf:
 	# --verbose
 
 tex:
-	pandoc "$(INPUTDIR)"/*.md \
+	pandoc "$(INPUTDIR)"/H_03.md \
 	-o "$(OUTPUTDIR)/thesis.tex" \
 	-H "$(STYLEDIR)/preamble.tex" \
 	-V fontsize=12pt \
