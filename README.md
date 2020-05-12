@@ -10,13 +10,13 @@ Type `make pdf` or `make html` or `make docx`. End up with latex (or html, or do
 | ------------- | ------------- | ------------- |
 | ![latex example](https://github.com/ArdenB/CCRCexamples/raw/master/markdown_thesis/source/figures/latex.png)  | ![html example](https://github.com/ArdenB/CCRCexamples/raw/master/markdown_thesis/source/figures/html.png)  |  ![docx example](https://github.com/ArdenB/CCRCexamples/raw/master/markdown_thesis/source/figures/docx.png)  |
 
-  
+
 
 If you prefer to work in Rmarkdown, see James Goldie's UNSW port: https://github.com/rensa/unswthesisdown
 
 The following instructions are from the original repository: https://github.com/tompollard/phd_thesis_markdown
 
-# Template for writing a PhD thesis in Markdown [![Build Status](https://travis-ci.org/tompollard/phd_thesis_markdown.svg?branch=master)](https://travis-ci.org/tompollard/phd_thesis_markdown)  
+# Template for writing a PhD thesis in Markdown [![Build Status](https://travis-ci.org/tompollard/phd_thesis_markdown.svg?branch=master)](https://travis-ci.org/tompollard/phd_thesis_markdown)
 
 [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.58490.svg)](http://dx.doi.org/10.5281/zenodo.58490)
 
@@ -44,7 +44,7 @@ Markdown is a super-friendly plain text format that can be easily converted to a
 There are some minor annoyances:
 - if you haven't worked with Markdown before then you'll find yourself referring to the style-guide fairly often at first.
 - it isn't possible to add a short caption to tables ~~and figures~~ ([figures are now fixed](https://github.com/tompollard/phd_thesis_markdown/pull/47), thanks to @martisak). This means that /listoftables includes the long-caption, which probably isn't what you want. If you want to include the list of tables, then you'll need to write it manually.
-- the style documents in this framework could be improved. The PDF and HTML (thanks [@ArcoMul](https://github.com/ArcoMul)) outputs are acceptable, but ~~HTML and~~ Word needs work if you plan to output to this format.  
+- the style documents in this framework could be improved. The PDF and HTML (thanks [@ArcoMul](https://github.com/ArcoMul)) outputs are acceptable, but ~~HTML and~~ Word needs work if you plan to output to this format.
 - ~~there is no straightforward way of specifying image size in the markdown right now, though this functionality is coming (see: https://github.com/tompollard/phd_thesis_markdown/issues/15)~~ (Image size can now be specified. Thanks to @rudolfbyker for [highlighting this](https://github.com/tompollard/phd_thesis_markdown/issues/15)).
 - ... if there are more, please add them here.
 
@@ -61,15 +61,15 @@ There are some minor annoyances:
 ## How do I get started?
 
 1. Install the following software:
-    - A text editor, like [Sublime](https://www.sublimetext.com/), which is what you'll use write the thesis.  
+    - A text editor, like [Sublime](https://www.sublimetext.com/), which is what you'll use write the thesis.
     - A LaTeX distribution (for example, [MacTeX](https://tug.org/mactex/) for Mac users).
     - [Pandoc](http://johnmacfarlane.net/pandoc), for converting the Markdown to the output format of your choice.  You may also need to install [Pandoc cite-proc](http://pandoc.org/demo/example19/Extension-citations.html) to create the bibliography.
     - Install @martisak's shortcaption module for Pandoc, with `pip install pandoc-shortcaption`
     - Git, for version control.
-2. [Fork the repository](https://github.com/tompollard/phd_thesis_markdown/fork) on Github  
-3. Clone the repository onto your local computer (or [download the Zip file](https://github.com/tompollard/phd_thesis_markdown/archive/master.zip)).  
-4. Navigate to the directory that contains the Makefile and type "make pdf" (or "make html") at the command line to update the PDF (or HTML) in the output directory.  
-**In case of an error** (e.g. `make: *** [pdf] Error 43`) run the following commands:  
+2. [Fork the repository](https://github.com/tompollard/phd_thesis_markdown/fork) on Github
+3. Clone the repository onto your local computer (or [download the Zip file](https://github.com/tompollard/phd_thesis_markdown/archive/master.zip)).
+4. Navigate to the directory that contains the Makefile and type "make pdf" (or "make html") at the command line to update the PDF (or HTML) in the output directory.
+**In case of an error** (e.g. `make: *** [pdf] Error 43`) run the following commands:
     ```
     sudo tlmgr install truncate
     sudo tlmgr install tocloft
@@ -82,8 +82,12 @@ There are some minor annoyances:
     sudo tlmgr update l3kernel
     sudo tlmgr update l3experimental
     ```
-    
-5. Edit the files in the 'source' directory, then goto step 4.  
+
+5. Edit the files in the 'source' directory, then goto step 4.
+
+### How to transform doc files to md file
+pandoc -s -o H_04_frontpage_figures.md H_04_frontpage_figures.docx
+
 
 ## What else do I need to know?
 
